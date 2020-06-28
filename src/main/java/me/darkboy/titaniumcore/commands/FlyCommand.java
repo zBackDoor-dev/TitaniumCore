@@ -12,6 +12,8 @@ public class FlyCommand extends TitaniumCommand {
 
     public FlyCommand() {
         this.setAliases("fly", "flight");
+        this.setDescription("Allows you to fly");
+        this.setUsage("/fly");
         this.setPermission(Permissions.FLY_PERM.getPermission());
         this.setPermissionDenyMessage(Language.NO_PERM.getMessage());
     }

@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.entity.Player;
 
 import java.io.File;
 import java.io.IOException;
@@ -48,13 +49,25 @@ public class TitaniumConfig {
 
     /** Set a location in the config */
     public void setLocation(String path, Location location) {
-        fileConfig.set(path + ".World", location.getWorld().getName());
+        fileConfig.set(path + ".World", Objects.requireNonNull(location.getWorld()).getName());
         fileConfig.set(path + ".X", location.getX());
         fileConfig.set(path + ".Y", location.getY());
         fileConfig.set(path + ".Z", location.getZ());
         fileConfig.set(path + ".Pitch", location.getPitch());
         fileConfig.set(path + ".Yaw", location.getYaw());
         saveConfig();
+    }
+
+    public void setHome(Player player) {
+        setLocation("Homes." + player.getUniqueId().toString(), player.getLocation());
+    }
+
+    public Location getHome(Player player) {
+        return getLocation("Homes." + player.getUniqueId().toString());
+    }
+
+    public boolean isHomeNull(Player player) {
+        return isPathNull("Homes." + player.getUniqueId().toString());
     }
 
     /** Get a location in the config */

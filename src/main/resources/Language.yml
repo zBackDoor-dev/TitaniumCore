@@ -6,11 +6,34 @@ messages:
     reload: "{prefix} &7Plugin successfully reloaded!"
     no-perm: "{prefix} &7You don't have the permission!"
     userNotFound: "{prefix} &b{player} &7is not online in the server!"
+
   commands:
     fly:
       enabled: "{prefix} &7Fly has been enabled!"
       disabled: "{prefix} &7Fly has been disabled!"
+
       enabledOther: "{prefix} &7Fly has been enabled for &b{player}&7!"
       disabledOther: "{prefix} &7Fly has been disabled for &b{player}&7!"
+
       enabledOther2: "{prefix} &7Your fly has been enabled!"
       disabledOther2: "{prefix} &7Your fly has been disabled!"
+    heal:
+      healed-msg: '{prefix} &7You''ve been healed!'
+      healed-msg-other: '{prefix} &7You''ve healed &b{player}!'
+
+      already-healed: '{prefix} &7You already have max health!'
+      already-healed-other: '{prefix} &b{player} &7already has max health!'
+
+      isnt-gamemode-survival-adventure: '{prefix} &7You have to be in &bSurvival &7or &bAdventure &7mode!'
+      isnt-gamemode-survival-adventure-other: '{prefix} &b{player} &7needs to be in &bSurvival &7or &bAdventure &7mode!'
+  feed:
+    feed-msg: '{prefix} &7You''ve been fed!'
+    feed-msg-other: '{prefix} &7You''ve fed &b{player}!'
+
+    already-fed: '{prefix} &7You already have max feed!'
+    already-fed-other: '{prefix} &b{player} &7already has max feed!'
+  homes:
+    sethome: "{prefix} &7Your home was successfully set!"
+
+    home: "{prefix} &7You have been teleported to your &bHome!"
+    not-found: "{prefix} &7First set your home with &b/sethome"

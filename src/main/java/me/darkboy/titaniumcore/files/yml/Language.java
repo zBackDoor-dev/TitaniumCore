@@ -35,6 +35,32 @@ public enum Language {
 
     FLY_DISABLED_OTHER2("messages.commands.fly.disabledOther2", "{prefix} &7Your fly has been disabled!"),
 
+    HEAL_MSG("messages.commands.heal.healed-msg", "{prefix} &7You''ve been healed!"),
+
+    HEAL_MSG_ALREADY_HEALED("messages.commands.heal.already-healed", "{prefix} &7You already have max health!"),
+
+    HEAL_MSG_OTHER("messages.commands.heal.healed-msg-other", "{prefix} &7You''ve healed &b{player}!"),
+
+    HEAL_MSG_ALREADY_HEALED_OTHER("messages.commands.heal.already-healed-other", "{prefix} &b{player} &3already has max health!"),
+
+    HEAL_GAMEMODE("messages.commands.heal.isnt-gamemode-survival-adventure", "{prefix} &7You have to be in &bSurvival &7or &bAdventure &7mode!"),
+
+    HEAL_GAMEMODE_OTHER("messages.commands.heal.isnt-gamemode-survival-adventure-other", "{prefix} &b{player} &7need to be in &bSurvival &7or &bAdventure &7mode!"),
+
+    FEED_MSG("messages.commands.feed.feed-msg", "{prefix} &7You''ve been fed!"),
+
+    FEED_OTHER("messages.commands.feed.feed-msg-other", "{prefix} &7You''ve fed &b{player}!"),
+
+    FEED_ALREADY("messages.commands.feed.already-fed", "{prefix} &7You already have max feed!"),
+
+    FEED_ALREADY_OTHER("messages.commands.feed.already-fed-other", "{prefix} &b{player} &7already has max feed!"),
+
+    SETHOME("messages.commands.homes.sethome", "{prefix} &7Your home was successfully set!"),
+
+    HOME("messages.commands.homes.home", "{prefix} &7You have been teleported to your &bHome!"),
+
+    HOME_NOT_FOUND("messages.commands.homes.not-found", "{prefix} &7First set your home with &b/sethome"),
+
     NOT_FOUND("messages.generic.userNotFound", "{prefix} &b{player} &7is not online in the server!"),
 
     ;
