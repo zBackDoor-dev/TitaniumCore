@@ -1,0 +1,6 @@
+name: TitaniumCore
+version: @version@
+main: me.darkboy.titaniumcore.TitaniumCore
+api-version: 1.13
+authors: [Untitlxd_]
+description: An all in one plugin for your server!

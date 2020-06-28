@@ -1,0 +1,16 @@
+prefix: "&3Titanium&bCore &7➜"
+
+messages:
+  generic:
+    usage: "{prefix} &7Incorrect usage please use &b{usage} {args}"
+    reload: "{prefix} &7Plugin successfully reloaded!"
+    no-perm: "{prefix} &7You don't have the permission!"
+    userNotFound: "{prefix} &b{player} &7is not online in the server!"
+  commands:
+    fly:
+      enabled: "{prefix} &7Fly has been enabled!"
+      disabled: "{prefix} &7Fly has been disabled!"
+      enabledOther: "{prefix} &7Fly has been enabled for &b{player}&7!"
+      disabledOther: "{prefix} &7Fly has been disabled for &b{player}&7!"
+      enabledOther2: "{prefix} &7Your fly has been enabled!"
+      disabledOther2: "{prefix} &7Your fly has been disabled!"
