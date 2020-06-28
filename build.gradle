@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'me.darkboy'
-version = '0.1-DEV'
+version = '0.2-DEV'
 
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'

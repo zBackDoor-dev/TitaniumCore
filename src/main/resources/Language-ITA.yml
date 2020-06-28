@@ -1,0 +1,39 @@
+prefix: "&3Titanium&bCore &7➜"
+
+messages:
+  generic:
+    usage: "{prefix} &7Utilizza &b{usage} {args}"
+    reload: "{prefix} &7Plugin ricaricato correttamente!"
+    no-perm: "{prefix} &7Non hai il permesso!!"
+    userNotFound: "{prefix} &b{player} &7non è online nel server!"
+
+  commands:
+    fly:
+      enabled: "{prefix} &7La fly è stata attivata!"
+      disabled: "{prefix} &7La fly è stata disattivata!"
+
+      enabledOther: "{prefix} &7Fly attivata per &b{player}&7!"
+      disabledOther: "{prefix} &7Fly disattivata per &b{player}&7!"
+
+      enabledOther2: "{prefix} &7La tua fly è stata attivata!"
+      disabledOther2: "{prefix} &7La tua fly è stata disattivata!"
+    heal:
+      healed-msg: '{prefix} &7Sei stato curato!'
+      healed-msg-other: '{prefix} &7Hai curato &b{player}!'
+
+      already-healed: '{prefix} &7Hai già la vita al massimo!'
+      already-healed-other: '{prefix} &b{player} &7ha già la vita al massimo!'
+
+      isnt-gamemode-survival-adventure: '{prefix} &7Devi essere in &bSurvival &7oppure in &7modalità &bAvventura!'
+      isnt-gamemode-survival-adventure-other: '{prefix} &b{player} &7deve essere in &bSurvival &7oppure in &7modalità &bAvventura!'
+  feed:
+    feed-msg: '{prefix} &7Sei stato nutrito!'
+    feed-msg-other: '{prefix} &7Hai nutrito &b{player}!'
+
+    already-fed: '{prefix} &7Hai già saziato!'
+    already-fed-other: '{prefix} &b{player} &7è già saziato!'
+  homes:
+    sethome: "{prefix} &7La casa è stata settata correttamente!"
+
+    home: "{prefix} &7Sei stato teletrasportato alla tua &bCasa!"
+    not-found: "{prefix} &7Setta prima la tua casa con &b/sethome"

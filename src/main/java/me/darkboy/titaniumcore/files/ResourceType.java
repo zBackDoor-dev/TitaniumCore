@@ -1,12 +1,13 @@
 package me.darkboy.titaniumcore.files;
 
+import me.darkboy.titaniumcore.files.yml.Config;
 import me.darkboy.titaniumcore.system.resource.Extension;
 import me.darkboy.titaniumcore.system.resource.ResourceReference;
 
 public enum ResourceType {
 
     CONFIG("Config.yml", Extension.YML),
-    LANGUAGE("Language.yml", Extension.YML);
+    LANGUAGE(Config.LANGUAGE_FILE.getAsString(), Extension.YML);
 
     private final ResourceReference reference;
 

@@ -14,6 +14,8 @@ public enum Config {
 
     CONFIG_VERSION("config-version", 1),
 
+    LANGUAGE_FILE("language-file", "Language-ENG.yml")
+
     ;
 
     public static ResourceYaml getConfig() {
